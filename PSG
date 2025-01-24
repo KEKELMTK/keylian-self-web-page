@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <body>
+        <head>
+            <title>TOUT SUR LE PSG</title>
+        </head>
+        <style>
+        h1{
+            color: khaki;
+        }
+        body{
+            background-color: darksalmon;
+        }
+        h2{
+            color: bisque;
+        }
+        </style>
+        <h1>PARIS SAINT GERMAIN</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZLbRjdDw5o35_k55SzDjo3kbAwb48XNgyg5S_Zcf8qtP_HWC2yFSZ7Du1RUAU_jKkMY&usqp=CAU">
+        <br>
+        <h2>Historique du PSG</h2>
+        <p>Le Paris Saint-Germain Football Club est fondé en 1970. Il obtient brièvement le statut professionnel de juillet 1971 à mai 1972, avant de le retrouver en juillet 1974. En tant que nouvel acteur sur la scène du football professionnel français, le PSG est désormais le club le plus ancien de la Ligue 1, avec une série ininterrompue de 49 saisons consécutives parmi l'élite.</p>
+        <br>
+        <p>Le Paris Saint-Germain Football Club (PSG) a été fondé en 1970. Voici les étapes clés de sa création</p>
+      <br>
+      <h3>1. Fusion de Deux Clubs</h3>
+      <br>
+      <p>Le PSG est né de la fusion entre le Stade Saint-Germain et le Paris FC. Le Stade Saint-Germain, fondé en 1904, était basé à Saint-Germain-en-Laye, une banlieue de Paris. Le Paris FC a été créé pour relancer le football de haut niveau à Paris, qui manquait d'un grand club à l'époque.</p>
+      <br>
+      <h3>2. Appel à la Population</h3>
+      <br>
+      <p>Un groupe de supporters et de dirigeants a lancé un appel pour créer un nouveau club de football à Paris. Cet appel a reçu un soutien massif de la part des fans, des entreprises locales et des médias.</p>
+      <br>
+      <h3>3. Première Assemblée Générale</h3>
+      <br>
+      <p>Le 10 juin 1970, la première assemblée générale du Paris Saint-Germain a eu lieu, officialisant la création du club. L'assemblée a choisi les couleurs rouge et bleu, inspirées des couleurs de Paris et de Saint-Germain-en-Laye.</p>
+      <br>
+      <h3>4. Nomination du Premier Président</h3>
+      <br>
+      <p></p>
+    </body>
+</html>
