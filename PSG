@@ -1,11 +1,21 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
     <body>
         <head>
             <title>TOUT SUR LE PSG</title>
         </head>
         <style>
-        h1{
+       .left{
+        float: left;
+            width: 300px;
+            margin-right: 20px;
+       }
+       .right{
+        float: right;
+            width: 300px;
+            margin-left: 20px;
+       }
+       h1{
             color: khaki;
         }
         body{
@@ -14,29 +24,105 @@
         h2{
             color: bisque;
         }
-        </style>
-        <h1>PARIS SAINT GERMAIN</h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZLbRjdDw5o35_k55SzDjo3kbAwb48XNgyg5S_Zcf8qtP_HWC2yFSZ7Du1RUAU_jKkMY&usqp=CAU">
+        #t{
+            font-size: 30px;
+        }
+        #p{
+            text-align: right;
+        }
+        .image-container {
+            overflow: hidden;
+            width: 300px; 
+    height: 200px; 
+    border-radius: 8px; 
+        }
+.hover-effect {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; }
+
+.hover-effect:hover {
+    transform: scale(1.1); 
+}
+</style>
+        <h1 id="t">PARIS SAINT GERMAIN</h1>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZLbRjdDw5o35_k55SzDjo3kbAwb48XNgyg5S_Zcf8qtP_HWC2yFSZ7Du1RUAU_jKkMY&usqp=CAU" alt="PSG" class="hover-effect">
+        </div>
         <br>
-        <h2>Historique du PSG</h2>
-        <p>Le Paris Saint-Germain Football Club est fondé en 1970. Il obtient brièvement le statut professionnel de juillet 1971 à mai 1972, avant de le retrouver en juillet 1974. En tant que nouvel acteur sur la scène du football professionnel français, le PSG est désormais le club le plus ancien de la Ligue 1, avec une série ininterrompue de 49 saisons consécutives parmi l'élite.</p>
-        <br>
-        <p>Le Paris Saint-Germain Football Club (PSG) a été fondé en 1970. Voici les étapes clés de sa création</p>
-      <br>
-      <h3>1. Fusion de Deux Clubs</h3>
-      <br>
-      <p>Le PSG est né de la fusion entre le Stade Saint-Germain et le Paris FC. Le Stade Saint-Germain, fondé en 1904, était basé à Saint-Germain-en-Laye, une banlieue de Paris. Le Paris FC a été créé pour relancer le football de haut niveau à Paris, qui manquait d'un grand club à l'époque.</p>
-      <br>
-      <h3>2. Appel à la Population</h3>
-      <br>
-      <p>Un groupe de supporters et de dirigeants a lancé un appel pour créer un nouveau club de football à Paris. Cet appel a reçu un soutien massif de la part des fans, des entreprises locales et des médias.</p>
-      <br>
-      <h3>3. Première Assemblée Générale</h3>
-      <br>
-      <p>Le 10 juin 1970, la première assemblée générale du Paris Saint-Germain a eu lieu, officialisant la création du club. L'assemblée a choisi les couleurs rouge et bleu, inspirées des couleurs de Paris et de Saint-Germain-en-Laye.</p>
-      <br>
-      <h3>4. Nomination du Premier Président</h3>
-      <br>
-      <p></p>
-    </body>
+        <div class="left">
+        <h1>Historique du PSG</h1>
+        <h2>Fondation</h2><br>
+        <p>Le Paris Saint-Germain Football Club est fondé en 1970. Il obtient brièvement le statut professionnel de juillet 1971 à mai 1972, avant de le retrouver en juillet 1974. En tant que nouvel acteur sur la scène du football professionnel français, le PSG est désormais le club le plus ancien de la Ligue 1, avec une série ininterrompue de 49 saisons consécutives parmi l'élite.</p><br>
+        <p>Le Paris Saint-Germain Football Club (PSG) a été fondé en 1970. Voici les étapes clés de sa création</p><br>
+      <h3>1. Fusion de Deux Clubs</h3><br>
+      <p>Le PSG est né de la fusion entre le Stade Saint-Germain et le Paris FC. Le Stade Saint-Germain, fondé en 1904, était basé à Saint-Germain-en-Laye, une banlieue de Paris. Le Paris FC a été créé pour relancer le football de haut niveau à Paris, qui manquait d'un grand club à l'époque.</p><br>
+      <h3>2. Appel à la Population</h3><br>
+      <p>Un groupe de supporters et de dirigeants a lancé un appel pour créer un nouveau club de football à Paris. Cet appel a reçu un soutien massif de la part des fans, des entreprises locales et des médias.</p> <br>
+      <h3>3. Première Assemblée Générale</h3><br>
+      <p>Le 10 juin 1970, la première assemblée générale du Paris Saint-Germain a eu lieu, officialisant la création du club. L'assemblée a choisi les couleurs rouge et bleu, inspirées des couleurs de Paris et de Saint-Germain-en-Laye.</p><br>
+      <h3>4. Nomination du Premier Président</h3><br>
+      <p>Guy Crescent et Pierre-Étienne Guyot ont été les premiers présidents du club, avec Henri Patrelle, ancien président du Stade Saint-Germain, jouant également un rôle clé.</p><br>
+      <h3>5. Premier Entraîneur et Joueurs</h3><br>
+      <p>Pierre Phelipon a été nommé premier entraîneur du PSG. Le club a rapidement recruté des joueurs talentueux pour constituer une équipe compétitive.</p> <br>
+     <h3>6. Début en Division Nationale</h3> <br>
+     <p>Le PSG a commencé en Division Nationale (deuxième division française) lors de la saison 1970-1971. Ils ont rapidement montré leur ambition en obtenant la promotion en première division dès la saison suivante.</p> <br>
+     <h3>7. Première Fusion et Séparation</h3> <br>
+     <p>En 1972, le Paris FC et le PSG se sont séparés, le Paris FC restant en première division tandis que le PSG a été relégué en deuxième division. Cependant, le PSG a rapidement retrouvé sa place en première division.</p> <br>
+     <h3>8. Achat du Parc des Princes</h3><br>
+     <p>En 1974, le PSG a pris le contrôle du Parc des Princes, le stade emblématique de Paris, devenant ainsi le domicile officiel du club.</p><br>
+     <h3>9. Premiers Succès</h3><br>
+     <p>Au fil des années, le PSG a progressivement construit son équipe et son infrastructure, remportant son premier titre de champion de France en 1986.</p><br>
+     <h4>Depuis ces premières étapes, le PSG a grandi pour devenir l'un des clubs les plus prestigieux et les plus connus au monde, avec de nombreux titres et une base de fans internationale.</h4> <br>
+     <h2>Ère Canal+</h2>  
+     <p>L'ère Canal+ a commencé en 1991 lorsque le groupe de télévision français a pris le contrôle du PSG. Cette période a été marquée par des investissements importants, permettant le recrutement de joueurs de renommée mondiale comme George Weah, David Ginola, Raí et Youri Djorkaeff. Le PSG a remporté le championnat de France en 1993-1994, ainsi que plusieurs Coupes de France.</p><br>
+     <p>Le club a également brillé sur la scène européenne en remportant la Coupe des Coupes en 1996. Cette période a renforcé la position du PSG en France et a contribué à sa reconnaissance internationale, en développant l'infrastructure du club et en modernisant le Parc des Princes. L'ère Canal+ a été une période de transformation majeure pour le PSG, posant les bases du club moderne que nous connaissons aujourd'hui.</p><br>
+     <h2>Rachat par Qatar Sports Investments</h2> <br>
+     <p>Les premières années sous la direction de QSI ont été marquées par une série de recrutements spectaculaires, incluant des stars internationales comme Zlatan Ibrahimović, Thiago Silva et Edinson Cavani. Ces recrutements ont permis au PSG de remporter plusieurs titres de Ligue 1 et d'affirmer sa domination sur la scène nationale.</p><br>
+    <p>Le club a également investi dans des infrastructures de classe mondiale, notamment avec la modernisation du Parc des Princes et la construction d'un nouveau centre d'entraînement à Poissy. En outre, QSI a renforcé la marque PSG à l'international, en multipliant les partenariats commerciaux et en augmentant la visibilité du club à travers le monde.</p><br>
+    <p>Sous l'ère QSI, le PSG a non seulement accumulé des titres nationaux, mais a également réalisé des performances notables en Ligue des Champions, atteignant la finale de l'édition 2019-2020. L'ambition du club reste de remporter cette prestigieuse compétition européenne.</p><br>
+    <p>En parallèle, le PSG a développé une politique de responsabilité sociale, en s'engageant dans diverses initiatives caritatives et en soutenant des projets communautaires. L'impact de QSI sur le PSG se reflète ainsi dans les succès sportifs, la croissance commerciale et l'engagement social du club.</p><br>
+    <p>Cette période a transformé le PSG en une véritable puissance du football mondial, avec des ambitions toujours plus grandes pour l'avenir.</p> <br>
+    <h2>Réalisations Récents</h2><br>
+    <p>Le Paris Saint-Germain a amassé un impressionnant nombre de trophées ces dernières années. Voici un aperçu de leurs réalisations récentes :</p><br>
+    <h3>Ligue 1:</h3><br>
+    <p>Le PSG a remporté le championnat de France à de nombreuses reprises, consolidant sa domination nationale. Depuis l'ère QSI en 2011, ils ont remporté plus de huit titres de Ligue 1.</p><br>
+    <h3>Coupe de France:</h3><br>
+    <p>Le club a également été très performant en Coupe de France, ajoutant plusieurs trophées à leur collection. Ils ont remporté la compétition à de nombreuses reprises, démontrant leur constance et leur excellence dans les compétitions à élimination directe.</p><br>
+    <h3>Coupe de la Ligue :</h3><br>
+    <p>Le PSG a remporté plusieurs titres de Coupe de la Ligue avant que cette compétition ne soit suspendue en 2020. Leurs succès dans cette compétition ont renforcé leur réputation de force dominante en France.</p><br>
+    <h3>Trophée des Champions :</h3><br>
+    <p>Le PSG a souvent débuté la saison en remportant le Trophée des Champions, un match qui oppose le champion de Ligue 1 au vainqueur de la Coupe de France. Cela a permis au club de continuer à ajouter des trophées à leur palmarès dès le début de la saison.</p><br>
+    <h3>Ligue des Champions:</h3> <br>
+    <p>Bien que le PSG n'ait pas encore remporté la Ligue des Champions, ils ont atteint la finale en 2020 et ont été régulièrement présents dans les phases finales de la compétition. Leur ambition de remporter ce prestigieux trophée reste intacte.</p><br>
+    <h4>Ces trophées témoignent de la domination du PSG sur la scène nationale et de leurs ambitions européennes. Les succès du club sont également le reflet des investissements importants réalisés pour attirer des joueurs de classe mondiale et améliorer les infrastructures du club.</h4><br>
+    <h2>Évolution et Impact</h2> <br>
+    <p>L'évolution et l'impact du Paris Saint-Germain se sont particulièrement manifestés depuis l'acquisition par Qatar Sports Investments en 2011. Les investissements massifs ont permis d'attirer des joueurs de renommée mondiale, élevant le niveau de performance de l'équipe sur le plan national et international.</p><br>
+    <p>Le PSG est devenu une force dominante en Ligue 1, remportant de nombreux titres de champion de France et plusieurs coupes nationales. Leur présence régulière dans les phases finales de la Ligue des Champions a également renforcé leur stature sur la scène européenne.</p><br>
+    <p>Le club a modernisé ses infrastructures, avec un nouveau centre d'entraînement à Poissy et la rénovation du Parc des Princes. Ces améliorations ont non seulement bénéficié aux joueurs de l'équipe première, mais aussi aux jeunes talents du centre de formation, consolidant ainsi l'avenir du club.</p>
+    <p>Sur le plan commercial,le PSG a multiplié les partenariats avec des marques internationales, augmentant considérablement ses revenus et sa visibilité mondiale grâce à des star comme Neymar,Messi et Mbappé.</p>
+    <p>En resumé le PSG a montré et continue de montré qu'il est capable de gravir les plus grands obstacles peu importe la situation </p> <br>
+    </div>
+    <div class="right">
+        <img id="p" src="https://th.bing.com/th/id/OIP.vq7g6_Xp_dFZiCFl2KdxOQHaB3?w=283&h=88&c=7&r=0&o=5&pid=1.7" >
+    </div>
+   <br>
+    <div class="left">
+    <h1>Actualités</h1><br>
+    <h2>Actualités: </h2> <br>
+    <h3>Match PSG vs Reims :</h3> <br> 
+    <p> Le PSG reçoit Reims ce samedi soir pour la 19ème journée de Ligue 1. Après leur victoire contre Manchester City en Ligue des Champions (4-2), ils chercheront à maintenir leur dynamique.</p> <br>
+    <h3>Transferts :</h3><br>
+    <p>Le PSG est actuellement en négociation pour plusieurs transferts, notamment l'arrivée de Khvicha Kvaratskhelia et la possible venue d'un autre joueur majeur pour l'été prochain</p> <br>
+    <h2>Articles et interviews</h2><br>
+    <h3>Interviews de joueurs:</h3><br>
+    <p>Vous pouvez trouver des interviews approfondies de joueurs du PSG sur des sites comme Foot Parisien et Le Parisien</p><br>
+    <h3>Analyses de matchs :</h3><br>
+    <p>Des analyses détaillées des matchs récents sont disponibles sur des plateformes comme L'Équipe et Canal Supporters</p>
+    </div>
+    
+    <div class="right">
+        <img src="data:image/jpeg;base64,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">
+    </div> 
+</body>
 </html>
